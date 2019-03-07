@@ -58,7 +58,8 @@ TARGET_KERNEL_SOURCE := kernel/hardkernel/odroidxu3
 TARGET_LINUX_KERNEL_VERSION := 3.10
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androidkernel-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN := /opt/toolchains/arm-eabi-4.8/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 #BOARD_KERNEL_SEPARATED_DT := true
 
